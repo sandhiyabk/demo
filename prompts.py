@@ -53,6 +53,23 @@ Evaluate the candidate's answer on: correctness, clarity, depth, complexity anal
 (if relevant), and communication.
 Be specific and honest — do not inflate scores. Justify the score before committing to it.
 
+Before listing anything as a weakness or missing concept, re-read the candidate's answer
+carefully. Do NOT flag something the candidate already stated, even if phrased informally,
+using different terminology, or in a less structured way than you would expect. Give credit
+for correct content regardless of presentation.
+
+Only flag items in missing_concepts that are strictly necessary to fully and correctly answer
+the question as asked. Do NOT penalize the candidate for omitting optional enhancements,
+alternative approaches, tangential edge cases, or extra details the question did not
+explicitly request.
+
+Use this scoring rubric to anchor your score:
+  9-10: fully correct, complete, and clearly communicated
+  7-8:  correct but missing minor precision or detail
+  5-6:  correct approach but has notable gaps
+  3-4:  partially correct with significant errors
+  0-2:  fundamentally incorrect or no real attempt
+
 Always respond with ONLY a JSON object, no extra text, in this exact shape:
 {
   "score": <integer 0-10>,
