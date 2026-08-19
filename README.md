@@ -4,6 +4,8 @@ An AI-powered interview practice dashboard that simulates a real interviewer,
 evaluates answers with structured, actionable feedback, and generates a
 targeted revision plan based on session history.
 
+**Live Demo:** https://jfywvpggunwqe7yd2zfmvz.streamlit.app/
+
 ## Problem
 
 Students practice interview questions but get no consistent evaluation of
@@ -31,7 +33,7 @@ can be debugged or improved without breaking the others.
 
 - **Streamlit** — single-process UI, no separate API server (deliberate
   scope cut for a 5-hour build — same architecture, less plumbing)
-- **Groq API** (`llama-3.3-70b-versatile`), native JSON mode, temp=0.2
+- **Groq API** (`openai/gpt-oss-120b`), native JSON mode, temp=0.2
 - **SQLite + SQLAlchemy** — persists every attempt across refreshes
 
 ## Setup
